@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sick Page Transitions</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body data-barba="wrapper">
+    <div class="wrapper">
+      <header>
+        <nav>
+          <ul>
+            <li><a href="index.html">home</a></li>
+            <li><a href="services.html">services</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main data-barba="container" data-barba-namespace="home">
+        <div class="left">
+          <h1>An Ongoing Experience</h1>
+          <a href="services.html" class="cta">Take me there</a>
+        </div>
+        <img src="img/photo.jpg" alt="Interior" />
+      </main>
+    </div>
+    <script src="https://unpkg.com/@barba/core"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"
+      integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ=="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
